@@ -11,9 +11,23 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Expense Tracker',
-      home: MyHomePage(),
-    );
+        title: 'Expense Tracker',
+        home: MyHomePage(),
+        theme: ThemeData(
+            primarySwatch: Colors.purple,
+            fontFamily: 'Quicksand',
+            textTheme: ThemeData.light().textTheme.copyWith(
+                headline6: TextStyle(
+                    fontFamily: 'OpenSans',
+                    fontWeight: FontWeight.bold,
+                    fontSize: 18)),
+            appBarTheme: AppBarTheme(
+                textTheme: ThemeData.light().textTheme.copyWith(
+                        headline6: TextStyle(
+                      fontFamily: 'OpenSans',
+                      fontWeight: FontWeight.bold,
+                      fontSize: 20,
+                    )))));
   }
 }
 
@@ -24,10 +38,10 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   final List<Transaction> _userTransaction = [
-    Transaction(
-        id: 't1', title: 'Yoga Mat', amount: 21.73, date: DateTime.now()),
-    Transaction(
-        id: 't2', title: 'Laptop', amount: 999.99, date: DateTime.now()),
+    // Transaction(
+    //     id: 't1', title: 'Yoga Mat', amount: 21.73, date: DateTime.now()),
+    // Transaction(
+    //     id: 't2', title: 'Laptop', amount: 999.99, date: DateTime.now()),
   ];
 
   void _addNewTransaction(String txTitle, double txAmount) {
@@ -77,7 +91,7 @@ class _MyHomePageState extends State<MyHomePage> {
               width: double.infinity,
               child: Card(
                 child: Text('CHART'),
-                color: Colors.blue,
+                color: Theme.of(context).primaryColor,
                 elevation: 7,
               ),
             ),
