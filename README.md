@@ -1,16 +1,15 @@
 # ExpenseTracker
 
-A new Flutter project.
+An Expense tracker app that lets you add expenses along with a price tag on any valid date selected from the calendar. It then shows the result in a list along with a beautiful colored chart showing the data of the last seven days. 
 
-## Getting Started
+Topics covered:
+•	Flutter Fundamentals: Compose UI from built-in and custom widgets, style and configure via arguments
+•	Theme: Define a global theme for colors and texts and using Theme.of(context)
+•	Styling and configuring widgets
+•	Lifting state up and using stateful widgets only when required. 
+•	Passing function references and data around.
 
-This project is a starting point for a Flutter application.
+This project is created by following along the Flutter course on Udemy. 
+Here is a link:
+https://www.udemy.com/course/learn-flutter-dart-to-build-ios-android-apps/
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
