@@ -29,6 +29,7 @@ Workflow/Breaking down the app:
 Milestone: Application takes input from user, shows it in form of tiles onto the screen as transactions and deletes the transaction when trash can is pressed. 
 
 ChartBar
+
 17.	Now in the main.dart file, create a getter of List<Transaction> type, this getter creates a list of transaction of the last 7 days. Pass this getter as a parameter to Chart. 
 18.	In chart, create a List and pass into the constructor. 
 19.	For chart, we need different data, first letter of the days of the last seven days, total weekly expenditure, total daily expenditure.  All these will be calculated in the chart.dart file.
