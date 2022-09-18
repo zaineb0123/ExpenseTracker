@@ -30,7 +30,7 @@ class MyApp extends StatelessWidget {
                   headline6: TextStyle(
                       fontFamily: 'OpenSans',
                       fontWeight: FontWeight.bold,
-                      fontSize: 18),
+                      fontSize: 19),
                   button: TextStyle(color: Colors.white),
                 ),
             appBarTheme: AppBarTheme(
