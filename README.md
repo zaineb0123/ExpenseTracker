@@ -2,16 +2,6 @@
 
 An Expense tracker app that lets you add expenses along with a price tag on any valid date selected from the calendar. It then shows the result in a list along with a beautiful colored chart showing the data of the last seven days. 
 
-![Screenshot (58)](https://user-images.githubusercontent.com/56018791/190899506-46656030-8d54-4c4d-8a9d-19e9b22f13a3.png)
-
-![Screenshot (59)](https://user-images.githubusercontent.com/56018791/190899509-70be0925-a568-4f85-ae17-a3787625e4cf.png)
-
-![Screenshot (60)](https://user-images.githubusercontent.com/56018791/190899511-9d7e0cd3-6c61-4d7e-8062-36336f62202f.png)
-
-
-
-
-
 Topics covered:
 •	Flutter Fundamentals: Compose UI from built-in and custom widgets, style and configure via arguments
 •	Theme: Define a global theme for colors and texts and using Theme.of(context)
